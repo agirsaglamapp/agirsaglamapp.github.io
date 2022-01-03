@@ -1,0 +1,554 @@
+{
+  "common": {
+    "cancel": "İptal",
+    "ok": "Tamam"
+  },
+  "formats": {
+    "variable_1": "bugün",
+    "variable_2": "dün",
+    "variable_3": "gün önce"
+  },
+  "features": {
+    "authentication": {
+      "main": {
+        "title_1": "AĞIRSAĞLAM",
+        "title_2": "Hesaplayıcı Uygulaması",
+        "button_1": "Bize Katıl",
+        "button_2": "Giriş Yap"
+      },
+      "login": {
+        "title_1": "AĞIRSAĞLAM",
+        "title_2": "Hesabın",
+        "button_1": "Giriş Yap",
+        "button_2": "Şifreni mi unuttun?",
+        "description_1": "Giriş yaparak, Ağırsağlam",
+        "description_2": "Gizlilik Politikası",
+        "description_3": "ve",
+        "description_4": "Kullanım Şartları",
+        "description_5": "'nı kabul etmiş sayılırsın.",
+        "second_description_1": "Üye değil misin?",
+        "second_description_2": "Bize katıl",
+        "second_description_3": ".",
+        "error_title_1": "Giriş Yapma Başarısız",
+        "error_content_1": "Bilgilerini kontrol et ve İnternet bağlantını kontrol et ve tekrar dene!",
+        "error_title_2": "Şifre Sıfırlama Başarısız",
+        "error_content_2": "Bilgilerini kontrol et ve İnternet bağlantını kontrol et ve tekrar dene!",
+        "success_title_2": "Şifre Sıfırlama Başarılı",
+        "success_content_2": "Şifre sıfırlama bağlantısı e-posta adresinde gönderildi."
+      },
+      "register": {
+        "title_1": "AĞIRSAĞLAM",
+        "title_2": "Hesabı Oluştur",
+        "button_1": "Hesap Oluştur",
+        "description_1": "Bir hesap oluşturarak, Ağırsağlam",
+        "description_2": "Gizlilik Politikası",
+        "description_3": "ve",
+        "description_4": "Kullanım Şartları",
+        "description_5": "'nı kabul etmiş sayılırsın.",
+        "second_description_1": "Hesabın mı var?",
+        "second_description_2": "Giriş yap",
+        "second_description_3": ".",
+        "error_title_1": "Hesap Oluşturma Başarısız",
+        "error_content_1": "Bilgilerini kontrol et ve İnternet bağlantını kontrol et ve tekrar dene!"
+      },
+      "unverified": {
+        "title_1": "AĞIRSAĞLAM",
+        "title_2": "Hesabını Onayla",
+        "button_1": "Tekrar Gönder",
+        "button_2": "Oturumu Kapat",
+        "description_1": "",
+        "description_2": "e-posta adresiyle giriş yapmak için hesabını onaylamalısın. Spam kutunu kontrol etmeyi unutma!",
+        "error_title_1": "Tekrar Gönderme Başarısız",
+        "error_content_1": "İnternet bağlantını kontrol et ve tekrar dene!"
+      }
+    },
+    "tabs": {
+      "calculators": {
+        "title": "Hesaplayıcılar",
+        "header_1": "Ağırsağlam Seviye",
+        "header_2": "1RM",
+        "header_3": "BMI",
+        "header_4": "Yağ Oranı",
+        "header_5": "Kalori",
+        "bmi_calculator": {
+          "title": "Bmi Hesaplayıcı",
+          "dialog_1": {
+            "subtitle_1": "\tGirdiğin boy ve vücut ağırlığı ile bmi değerin, vücut kategorin ve ideal kilo aralığın hesaplanır. Bu hesaplamada",
+            "subtitle_2": "Vücut Kitle İndex Formülü",
+            "subtitle_3": "kullanılır."
+          },
+          "result_1": "BMI'ın",
+          "result_2": "Vücut kategorin",
+          "result_3": "İdeal kilo aralığın",
+          "variables_1": {
+            "variable_1": "Çok Zayıf",
+            "variable_2": "Zayıf",
+            "variable_3": "Az Zayıf",
+            "variable_4": "Normal",
+            "variable_5": "Kilolu",
+            "variable_6": "Tip I Obez",
+            "variable_7": "Tip II Obez",
+            "variable_8": "Tip III Obez"
+          }
+        },
+        "body_fat_calculator": {
+          "title": "Yağ Oranı Hesaplayıcı",
+          "dialog_1": {
+            "subtitle_1": "\tGirdiğin cinsiyet, boy, boyun ölçüsü, bel ölçüsü ve kalça ölçüsü ile yağ oranın ve vücut kategorin hesaplanır. Bu hesaplamada",
+            "subtitle_2": "US Navy Metodu",
+            "subtitle_3": "kullanılır."
+          },
+          "result_1": "Yağ oranın",
+          "result_2": "Vücut kategorin",
+          "variables_1": {
+            "variable_1": "Sağlıksız Şekilde Yağsız",
+            "variable_2": "Atlet",
+            "variable_3": "Fit",
+            "variable_4": "Normal",
+            "variable_5": "Obez"
+          }
+        },
+        "calorie_calculator": {
+          "title": "Kalori Hesaplayıcı",
+          "dialog_1": {
+            "subtitle_1": "\tGirdiğin yağ oranı ve vücut ağırlığı ile bmr ve kalori ihtiyacın hesaplanır. Bu hesaplamada",
+            "subtitle_2": "Katch–McArdle Formülü",
+            "subtitle_3": "kullanılır."
+          },
+          "result_1": "BMR'ın",
+          "result_2": "Kalori ihtiyacın"
+        },
+        "rep_calculator": {
+          "title": "Tekrar Hesaplayıcı",
+          "dialog_1": {
+            "subtitle_1": "\tGirdiğin ağırlık ve seçtiğin tekrar ile ilk 10 tekrarı kaç kiloyla yapabileceğin hesaplanır. Bu hesaplamada",
+            "subtitle_2": "Wathan Formülü",
+            "subtitle_3": "kullanılır."
+          },
+          "button_1": "Seviyeni Gör"
+        }
+      },
+      "leaderboard": {
+        "title": "Lider Tablosu",
+        "button_1": "Sen",
+        "subtitle_1": "Sen",
+        "dialog_button_1": "Sıfırla",
+        "list_item": {
+          "button_1": "Profile Git",
+          "button_2": "Videoyu İzle",
+          "button_3": "Kaldırışa Git",
+          "button_4": "Raporları İncele"
+        }
+      },
+      "profile": {
+        "title": "Profil",
+        "button_1": "Profili Düzenle",
+        "subtitle_1": "Admin Paneli",
+        "edit_profile": {
+          "title": "Profili Düzenle",
+          "button_1": "İptal",
+          "button_2": "Bitti",
+          "error_title_1": "İsim Değiştirme Başarısız",
+          "error_title_2": "Profil Fotoğrafı Değiştirme Başarısız",
+          "error_content_1": "İnternet bağlantını kontrol et ve tekrar dene!",
+          "error_content_2": "İnternet bağlantını kontrol et ve tekrar dene! Unutma, fotoğraf boyutu 1MB'tan küçük olmalı."
+        },
+        "settings": {
+          "title": "Ayarlar",
+          "section_title_1": "Genel",
+          "section_title_2": "Hesap",
+          "tile_title_1": "Dil",
+          "tile_title_2": "Görünüş",
+          "tile_title_3": "Oturumu Kapat",
+          "appearance": {
+            "title": "Görünüş",
+            "subtitle": "Uygulama içi temayı açık veya koyu görünüş olarak değiştir, ya da telefonun varsayılan ayarlarını kullan."
+          },
+          "language": {
+            "title": "Dil",
+            "subtitle": "Uygulama dilini değiştir."
+          }
+        }
+      },
+      "attempt_selector": {
+        "title": "Attempt Selector",
+        "button_1": "Başla",
+        "warmup": {
+          "button_1": "Sete Başla",
+          "button_2": "Seti Atla",
+          "button_3": "Seti Bitir",
+          "button_4": "Dinlenmeyi Bitir",
+          "title_1": "",
+          "title_2": ". Isınma",
+          "subtitle_1": "tekrar",
+          "notification_title": "Dinlenme Bitti",
+          "notification_body_1": "",
+          "notification_body_2": ". ısınma seti seni bekliyor",
+          "notification_body_3": "kg ile",
+          "notification_body_4": "tekrar"
+        },
+        "attempt": {
+          "button_1": "Sete Başla",
+          "button_2": "Seti Atla",
+          "button_3": "Seti Bitir",
+          "button_4": "Dinlenmeyi Bitir",
+          "title_1": "",
+          "title_2": ". Deneme",
+          "notification_title": "Dinlenme Bitti",
+          "notification_body_1": "",
+          "notification_body_2": ". deneme seni bekliyor",
+          "notification_body_3": "kg"
+        }
+      }
+    },
+    "lifts": {
+      "button_1": "Kaldırış Ekle",
+      "lift": {
+        "title_1": "Ağırsağlam Seviye Hesaplayıcı",
+        "title_2": "Kaldırış Ekle",
+        "title_3": "Kaldırışı Güncelle",
+        "title_4": "Kaldırış Önizleme",
+        "dialog_1": {
+          "subtitle_1": "\tGirdiğin ağırlık ve seçtiğin tekrar ile önce tek tekrar maksimumun hesaplanır. Bu hesaplamada",
+          "subtitle_2": "Wathan Formülü",
+          "subtitle_3": "kullanılır. Daha sonra vücut ağırlığı ve tek tekrar maksimumun ile ağırsağlam skorun hesaplanır. Bu hesaplamada ise",
+          "subtitle_4": "Wilks Katsayısı",
+          "subtitle_5": "kullanılır.",
+          "subtitle_6": "\n\tLider tablosunda yer alabilmek için yaptığın kaldırışın video bağlantısını girmen gerekir. Video bağlantısını girdiğinde lider tablosunda olmayı kabul etmiş olursun. Bağlantıdaki video silinirse veya değişirse lider tablosundan çıkarılacaksın. Kaldırışın onaylanması için videonun şu kurallara uyması gerekir:\n\n\t1-Videoya yönlendirildiğinde direkt girilen kaldırışın videosuna girilmeli.\n\t2-Video ve girilen kaldırış eşleşmeli.\n\t3-Videoda sadece girilen kaldırış bulunmalı.\n\t4-Video, yüklendiği platformda kalıcı olmalı.\n\t5-Kullanılan ağırlık sayılabilir olmalı.\n\t6-Kaldırışı yapan sporcu kendine kaldırış esnasında kötü form gibi nedenlerle zarar vermemeli.\n\nBu kurallardan bir veya birkaçı sağlanmazsa kaldırış reddedilir."
+        },
+        "dialog_2": {
+          "title": "Doğrulandı",
+          "content": "Kaldırışın ekibimiz tarafından doğrulandı."
+        },
+        "dialog_3": {
+          "title": "Doğrulanmadı",
+          "content": "Eğer kaldırış videonu eklediysen ve herekese açıksa, en yakın zamanda ekibimiz tarafından incelenecek."
+        },
+        "dialog_4": {
+          "title": "Reddedildi",
+          "content": "Kaldırışın reddedildi. Videona dışarıdan erişilemedi veya kaldırış bilgisi videoyla eşleşmedi."
+        },
+        "dialog_5": {
+          "title": "Kaldırışı silmek istediğine emin misin?"
+        },
+        "dialog_6": {
+          "title": "Kaldırışı güncellemek istediğine emin misin?",
+          "content": "Kaldırışı güncellersen, doğrulamayı kaybedersin ve yeniden doğrulanması için beklemen gerekir."
+        },
+        "result_1": "Tek tekrar maksimumun",
+        "result_2": "Kaldırış - vücut ağırlığı oranın",
+        "result_3": "Ağırsağlam skorun",
+        "result_4": "Sıralamayı Göster",
+        "result_5_1": "",
+        "result_5_2": "kişiden daha güçlüsün",
+        "result_6_1": "",
+        "result_6_2": "kişi senden daha güçlü",
+        "result_7_1": "",
+        "result_7_2": "Ağırsağlamsın",
+        "button_1": "Ağırsağlam Sıralamanı Bul",
+        "button_2": "Günlüğe Kaydet",
+        "button_3": "Güncelle",
+        "button_4": "Kaldırış Kartı",
+        "button_5": "Raporla",
+        "button_6": "Düzenle",
+        "dialog_7": {
+          "title": "Ağırsağlam Sıralama Bulma Başarısız",
+          "content": "İnternet bağlantını kontrol et ve tekrar dene!"
+        },
+        "dialog_8": {
+          "title": "İşlem Başarısız!",
+          "content": "İnternet bağlantını kontrol et ve tekrar dene!"
+        },
+        "switch_1": "Onay",
+        "switch_2": "Red"
+      },
+      "log": {
+        "title": "Günlük",
+        "history": {
+          "title": "Geçmiş",
+          "dialog_1": {
+            "title": "Kaldırışı silmek istediğine emin misin?"
+          },
+          "message_1": "Henüz kaldırış eklemedin"
+        },
+        "chart": {
+          "title": "Grafik"
+        }
+      },
+      "lift_card": {
+        "title_1": "Sonraki Seviye",
+        "title_2": "Ağırsağlam Skor",
+        "content_1": "İşte kaldırışım. Gel yarışalım!",
+        "content_2": "Bu bağlantıdan izleyebilirsin"
+      },
+      "lightweight_card": {
+        "content_1": "İşte Ağırsağlam Kartım. Gel yarışalım!",
+        "warning_1": "Ağırsağlam Kartını almak için en azından üç farklı egzersizde kaldırışın bulunmalı.",
+        "warning_2": "Altın Ağırsağlam Kartını almak için en azından üç farklı egzersizde onaylanmış kaldırışın bulunmalı."
+      },
+      "lift_list_item": {
+        "label_1": "Ağırsağlam Skor",
+        "label_2": "Tarih"
+      },
+      "share": {
+        "title_1": "Hikaye",
+        "title_2": "Daha fazla"
+      },
+      "analysis": {
+        "title_1": "En İyi Kaldırışların",
+        "title_2": "Sen ve Diğer Sporcular"
+      }
+    }
+  },
+  "product": {
+    "exceptions": {
+      "calculator": {
+        "exception_1": "Anlamsız Sonuç",
+        "exception_2": "Limit dışında sonuç"
+      }
+    },
+    "extensions": {
+      "app_tab": {
+        "name_1": "Profil",
+        "name_2": "Lider Tablosu",
+        "name_3": "Günlük",
+        "name_4": "Hesaplayıcılar"
+      },
+      "plate": {
+        "name_1": "1.25 kg",
+        "name_2": "2.5 kg",
+        "name_3": "5 kg",
+        "name_4": "10 kg",
+        "name_5": "15 kg",
+        "name_6": "20 kg",
+        "name_7": "25 kg"
+      },
+      "bar": {
+        "name_1": "Olimpik - 20 kg",
+        "name_2": "Yarı Olimpik - 10 kg"
+      },
+      "felt": {
+        "name_1": "Kötü hissettirdi",
+        "name_2": "Normaldi",
+        "name_3": "İyi hissettirdi"
+      },
+      "appearance": {
+        "name_1": "Sistem",
+        "name_2": "Açık",
+        "name_3": "Koyu"
+      },
+      "language": {
+        "name_1": "İngilizce",
+        "name_2": "Türkçe"
+      },
+      "gender": {
+        "name_1": "Erkek",
+        "name_2": "Kadın"
+      },
+      "activity_level": {
+        "name_1": "Sıradan (az ya da hiç egzersiz)",
+        "name_2": "Az aktif (haftada 1-3 kez egzersiz)",
+        "name_3": "Orta aktif (haftada 4-5 kez egzersiz)",
+        "name_4": "Çok aktif (haftada 6-7 kez yoğun egzersiz)",
+        "name_5": "Aşırı aktif (her gün aşırı egzersiz veya fiziksel iş)"
+      },
+      "exercise": {
+        "name_1": "Squat",
+        "name_2": "Bench Press",
+        "name_3": "Deadlift",
+        "name_4": "Overhead Press",
+        "name_5": "Barbell Row",
+        "name_6": "Ağırlıklı Dips",
+        "name_7": "Ağırlıklı Barfiks"
+      },
+      "lifts_sort": {
+        "name_1": "Tarih",
+        "name_2": "Ağırsağlam Skor",
+        "name_3": "Tek Tekrar Maksimim",
+        "name_4": "Ağırlık",
+        "name_5": "Tekrar",
+        "name_6": "Vücut Ağırlığı"
+      },
+      "sort_direction": {
+        "name_1": "Artan",
+        "name_2": "Azalan"
+      },
+      "lifts_exercise_filter": {
+        "name_1": "Hepsi",
+        "name_2": "Squat",
+        "name_3": "Bench Press",
+        "name_4": "Deadlift",
+        "name_5": "Overhead Press",
+        "name_6": "Barbell Row",
+        "name_7": "Ağırlıklı Dips",
+        "name_8": "Ağırlıklı Barfiks"
+      },
+      "lifts_compare": {
+        "name_1": "Ağırsağlam Skor",
+        "name_2": "Tek Tekrar Maksimum"
+      },
+      "classification": {
+        "name_1": "Tecrübesiz",
+        "name_2": "Acemi",
+        "name_3": "Orta Seviye",
+        "name_4": "Yetkin",
+        "name_5": "İleri Düzey",
+        "name_6": "İstisnai",
+        "name_7": "Elit Seviye",
+        "name_8": "Dünya Standartı",
+        "description_1": "Yaptığın kaldırışa göre daha önce düzenli ağırlık çalışması yapmadın. Popülasyonun çoğu bu kategoriye girer. Kendine ayna karşısında sormalısın: \"do you even lift?\".",
+        "description_2": "Yaptığın kaldırış acemi. Bu seviyedeki sporcu tecrübesiz sporcudan daha kuvvetlidir. Genellikle birkaç aylık çalışma ile bu seviyeye gelinebilir.",
+        "description_3": "Yaptığın kaldırış orta seviye. Muhtemelen en azından bir yıldır ağırlık kaldırıyorsun. Spor salonuna giden genel kitle bu seviyede diyebiliriz.",
+        "description_4": "Görünüşe göre bir şeyler yolunda! Muhtemelen 2 yıldan fazla süredir ağırlık kaldırıyorsun. Spor salonuna giden ortalama birinden çok daha güçlüsün.",
+        "description_5": "Tebrikler, kaldırışın ileri düzey. Bu işe yıllarını vermişsin gibi görünüyor. Muhtemelen gittiğin salondaki en güçlüler arasındasın. Yarışmayı da düşünebilirsin.",
+        "description_6": "Fevkalade bir kaldırış! Ortalama bir insan için neredeyse doğal genetik limit seviyesindesin. Doping kullananlar için bile iyi bir kaldırış, yarışmayı ciddi düşünmelisin!",
+        "description_7": "Kaldırışın elit seviye, tebrikler! Bu seviye için bir ömür antrenman ve diyet yapmak gerekiyor. Ulusal çapta az sayıda kişi doğal olarak bu seviyeye gelebiliyor.",
+        "description_8": "Olağanüstü, dünya çapında ses getirecek bir kaldırış! Bu seviyeler hem ağırsağlam yetenek, hem ağırsağlam efor istiyor. Bu işin en iyilerindensin!"
+      },
+      "report": {
+        "name_1": "Video ve kaldırış eşleşmiyor",
+        "name_2": "Videoda birden fazla kaldırış var",
+        "name_3": "Video yüklendiği platformda kalıcı değil",
+        "name_4": "Kullanılan ağırlıklar sayılabilir değil",
+        "name_5": "Kaldırış geçersiz"
+      },
+      "lifter_tag": {
+        "short_name_1": "SS",
+        "short_name_2": "PM",
+        "short_name_3": "DS",
+        "short_name_4": "RM",
+        "short_name_5": "CS",
+        "name_1": "Squat Star",
+        "name_2": "Press Machine",
+        "name_3": "Deadlift Star",
+        "name_4": "Row Machine",
+        "name_5": "Calisthenics Star",
+        "description_1": "Squat yapmak konusunda kimse senin eline su dökemez! Bu hareketin yıldızı olmuşsun.",
+        "description_2": "Tam bir itiş makinesisin! Hidrolik kullanmanın hile olmadığı yarışmalara katılmalısın.",
+        "description_3": "Yerden ağırlık sökme konusunda ustasın! Umarım salondaki plakalar sana yetiyordur.",
+        "description_4": "Çekişler senden soruluyor. Sırt kasların sanki bir duvar gibi.",
+        "description_5": "Sokakların kralısın! Spor salonu, park fark etmez. Demire tutunduğunda tüm gözler sende."
+      }
+    },
+    "widgets": {
+      "others": {
+        "plates_input": {
+          "label_text": "Mevcut Plakalar"
+        },
+        "bar_input": {
+          "label_text": "Mevcut Bar"
+        }
+      },
+      "sheets": {
+        "felt": {
+          "title": "Bu set nasıldı?",
+          "subtitle": "Başarısız",
+          "button_1": "Devam Et"
+        },
+        "lifts_sort": {
+          "title": "Sırala"
+        },
+        "lifts_exercise_filter": {
+          "title": "Filtrele"
+        },
+        "lifts_compare": {
+          "title": "Karşılaştır"
+        },
+        "select_exercises": {
+          "title": "Egzersizleri Seç"
+        },
+        "report": {
+          "title": "Raporla",
+          "success_title": "Rapor Edildi!",
+          "success_content": "Kaldırış başarıyla rapor edildi! Ekibimiz en yakın zamanda inceleyecektir.",
+          "failure_title": "Rapor Edilemedi!",
+          "failure_content": "Kaldırış rapor edilirken bir hata oluştu! Lütfen tekrar dene."
+        }
+      },
+      "dialogs": {
+        "force_update": {
+          "title": "Yeni Sürüm Mevcut",
+          "content": "Uygulamanın daha yeni bir versiyonu mevcut. Devam edebilmek için uygulamayı güncelle.",
+          "button_1": "Güncelle"
+        },
+        "maintenance": {
+          "title": "Bakımdayız",
+          "content": "Şu anda bakımdayız. Daha sonra tekrar gel. Merak etme çok sürmez."
+        },
+        "explanation": {
+          "title": "Açıklama",
+          "button_1": "Anladım"
+        },
+        "yes_no": {
+          "button_1": "Hayır",
+          "button_2": "Evet"
+        },
+        "ok": {
+          "button_1": "Tamam"
+        }
+      },
+      "text_form_fields": {
+        "email_input": {
+          "label_text": "E-posta",
+          "error_text": "Geçersiz e-posta"
+        },
+        "password_input": {
+          "label_text": "Şifre",
+          "error_text": "Geçersiz şifre: en az 6, en fazla 30 karakterli olmalı"
+        },
+        "confirmed_password_input": {
+          "label_text": "Şifre Tekrar",
+          "error_text": "Şifreler eşleşmiyor"
+        },
+        "name_input": {
+          "label_text": "İsim",
+          "error_text": "Geçersiz isim formatı: en az 2, en fazla 20 karakterli olmalı"
+        },
+        "height_input": {
+          "label_text": "Boy",
+          "error_text": "Geçersiz boy: en az 140, en fazla 240 cm olmalı"
+        },
+        "body_weight_input": {
+          "label_text": "Vücut Ağırlığı",
+          "error_text": "Geçersiz vücut ağırlığı: en az 30, en fazla 250 kg olmalı"
+        },
+        "hip_input": {
+          "label_text": "Kalça",
+          "error_text": "Geçersiz kalça: en az 50, en fazla 200 cm olmalı"
+        },
+        "neck_input": {
+          "label_text": "Boyun",
+          "error_text": "Geçersiz boyun: en az 15, en fazla 70 cm olmalı"
+        },
+        "waist_input": {
+          "label_text": "Bel",
+          "error_text": "Geçersiz bel: en az 40, en fazla 200 cm olmalı"
+        },
+        "body_fat_input": {
+          "label_text": "Yağ Oranı",
+          "error_text": "Geçersiz yağ oranı: en az 2, en fazla 60 olmalı"
+        },
+        "rep_input": {
+          "label_text": "Tekrar"
+        },
+        "weight_input": {
+          "label_text_1": "Ağırlık",
+          "error_text_1": "Geçersiz ağırlık: en az 0, en fazla 500 kg olmalı",
+          "label_text_2": "Ek Ağırlık",
+          "error_text_2": "Geçersiz ek ağırlık: en az 0, en fazla 500 kg olmalı"
+        },
+        "rep_input_2": {
+          "label_text": "Tekrar",
+          "error_text": "Geçersiz tekrar: en az 1, en fazla 10 olmalı"
+        },
+        "validation_link_input": {
+          "label_text": "Video Bağlantısı (Lider tablosuna gir)"
+        },
+        "desired_max_input": {
+          "label_text": "İstenen Maksimum",
+          "error_text": "Geçersiz istenen maksimum: en az 0, en fazla 500kg olmalı"
+        }
+      }
+    }
+  }
+}

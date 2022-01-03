@@ -1,0 +1,554 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "ok": "Ok"
+  },
+  "formats": {
+    "variable_1": "today",
+    "variable_2": "yesterday",
+    "variable_3": "days ago"
+  },
+  "features": {
+    "authentication": {
+      "main": {
+        "title_1": "LIGHTWEIGHT",
+        "title_2": "Calculator App",
+        "button_1": "Join Us",
+        "button_2": "Log In"
+      },
+      "login": {
+        "title_1": "LIGHTWEIGHT",
+        "title_2": "Account",
+        "button_1": "Log In",
+        "button_2": "Did you forget your password?",
+        "description_1": "By logging in, you agree to the",
+        "description_2": "Privacy Policy",
+        "description_3": "and",
+        "description_4": "Terms of Use",
+        "description_5": ".",
+        "second_description_1": "Not a member?",
+        "second_description_2": "Join us",
+        "second_description_3": ".",
+        "error_title_1": "Login Failed",
+        "error_content_1": "Check your info and Check your internet connection then try again!",
+        "error_title_2": "Password Reset Failed",
+        "error_content_2": "Check your info and Check your internet connection then try again!",
+        "success_title_2": "Password Reset Successful",
+        "success_content_2": "Password reset link has been sent to your email address."
+      },
+      "register": {
+        "title_1": "LIGHTWEIGHT",
+        "title_2": "Account Creation",
+        "button_1": "Create Account",
+        "description_1": "By creating an account, you agree to the",
+        "description_2": "Privacy Policy",
+        "description_3": "and",
+        "description_4": "Terms of Use",
+        "description_5": ".",
+        "second_description_1": "Do you have an account",
+        "second_description_2": "Log in",
+        "second_description_3": ".",
+        "error_title_1": "Account Creation Failed",
+        "error_content_1": "Check your info and Check your internet connection then try again!"
+      },
+      "unverified": {
+        "title_1": "LIGHTWEIGHT",
+        "title_2": "Verification",
+        "button_1": "Send Again",
+        "button_2": "Log Out",
+        "description_1": "Please verify your account for",
+        "description_2": ". Make sure you check your spam box!",
+        "error_title_1": "Send Again Failed",
+        "error_content_1": "Check your internet connection then try again!"
+      }
+    },
+    "tabs": {
+      "calculators": {
+        "title": "Calculators",
+        "header_1": "Lightweight Level",
+        "header_2": "1RM",
+        "header_3": "BMI",
+        "header_4": "Body Fat",
+        "header_5": "Calorie",
+        "bmi_calculator": {
+          "title": "Bmi Calculator",
+          "dialog_1": {
+            "subtitle_1": "\tYour bmi and ideal weight range are calculated with the height and body weight you enter.",
+            "subtitle_2": "Body Mass Index Formula",
+            "subtitle_3": "is used in this calculation."
+          },
+          "result_1": "Your BMI is",
+          "result_2": "Your body class is",
+          "result_3": "Your ideal body weight range is",
+          "variables_1": {
+            "variable_1": "Severe Thinness",
+            "variable_2": "Moderate Thinness",
+            "variable_3": "Mild Thinness",
+            "variable_4": "Normal",
+            "variable_5": "Overweight",
+            "variable_6": "Obese Class I",
+            "variable_7": "Obese Class II",
+            "variable_8": "Obese Class III"
+          }
+        },
+        "body_fat_calculator": {
+          "title": "Body Fat Calculator",
+          "dialog_1": {
+            "subtitle_1": "\tYour body fat percentage and body category are calculated with the gender, height, neck size, waist size and hip size you enter.",
+            "subtitle_2": "US Navy Method",
+            "subtitle_3": "is used for this calculation."
+          },
+          "result_1": "Your body fat percentage is",
+          "result_2": "Your body class is",
+          "variables_1": {
+            "variable_1": "Critical For Health",
+            "variable_2": "Athlete",
+            "variable_3": "Fit",
+            "variable_4": "Normal",
+            "variable_5": "Obese"
+          }
+        },
+        "calorie_calculator": {
+          "title": "Calorie Calculator",
+          "dialog_1": {
+            "subtitle_1": "\tYour BMR and calorie needs are calculated with the fat percentage and body weight you enter.",
+            "subtitle_2": "Katch–McArdle Formula",
+            "subtitle_3": "is used for this calculation."
+          },
+          "result_1": "Your bmr is",
+          "result_2": "Your calorie need is"
+        },
+        "rep_calculator": {
+          "title": "Repetition Calculator",
+          "dialog_1": {
+            "subtitle_1": "\tYour 1 to 10 repetitions calculated with the weight you and repetition you enter.",
+            "subtitle_2": "Wattan Formula",
+            "subtitle_3": "is used in this calculation."
+          },
+          "button_1": "See Your Level"
+        }
+      },
+      "leaderboard": {
+        "title": "Leaderboard",
+        "button_1": "You",
+        "subtitle_1": "Sen",
+        "dialog_button_1": "Reset",
+        "list_item": {
+          "button_1": "Profile",
+          "button_2": "Video",
+          "button_3": "Lift",
+          "button_4": "Reports"
+        }
+      },
+      "profile": {
+        "title": "Profile",
+        "button_1": "Edit Profile",
+        "subtitle_1": "Admin Panel",
+        "edit_profile": {
+          "title": "Edit Profile",
+          "button_1": "Cancel",
+          "button_2": "Done",
+          "error_title_1": "Name Update Failed",
+          "error_title_2": "Profile Picture Update Failed",
+          "error_content_1": "Check your internet connection then try again!",
+          "error_content_2": "Check your internet connection then try again! Do not forget that, picture size must be less than 1mb."
+        },
+        "settings": {
+          "title": "Settings",
+          "section_title_1": "General",
+          "section_title_2": "Account",
+          "tile_title_1": "Language",
+          "tile_title_2": "Appearance",
+          "tile_title_3": "Log Out",
+          "appearance": {
+            "title": "Appearance",
+            "subtitle": "Change the in-app theme to light or dark, or use the phone's default settings."
+          },
+          "language": {
+            "title": "Language",
+            "subtitle": "Change the language."
+          }
+        }
+      },
+      "attempt_selector": {
+        "title": "Attempt Selector",
+        "button_1": "Start",
+        "warmup": {
+          "button_1": "Start Set",
+          "button_2": "Skip Set",
+          "button_3": "Finish Set",
+          "button_4": "Finish Rest",
+          "title_1": "Warm-up ",
+          "title_2": "",
+          "subtitle_1": "tekrar",
+          "notification_title": "Rest is Over",
+          "notification_body_1": "Warm-up set ",
+          "notification_body_2": " is waiting for you",
+          "notification_body_3": "kg and",
+          "notification_body_4": "rep"
+        },
+        "attempt": {
+          "button_1": "Start Set",
+          "button_2": "Skip Set",
+          "button_3": "Finish Set",
+          "button_4": "Finish Rest",
+          "title_1": "Attempt ",
+          "title_2": "",
+          "notification_title": "Rest is Over",
+          "notification_body_1": "Attempt ",
+          "notification_body_2": " is waiting for you",
+          "notification_body_3": "kg"
+        }
+      }
+    },
+    "lifts": {
+      "button_1": "Add Lift",
+      "lift": {
+        "title_1": "Lightweight Level Calculator",
+        "title_2": "Add Lift",
+        "title_3": "Update Lift",
+        "title_4": "Lift Preview",
+        "dialog_1": {
+          "subtitle_1": "\tWith the weight you entered and the repetition you selected, your one rep maximum is calculated first.",
+          "subtitle_2": "Wathan Formula",
+          "subtitle_3": "is used in this calculation. Then your wilks score is calculated with your body weight and your one rep max.",
+          "subtitle_4": "Wilks Coefficient",
+          "subtitle_5": "is used in this calculation.",
+          "subtitle_6": "\n\tIn order to be on the leaderboard, you must enter the video link of your lift. By entering the video link, you are agreeing to be on the leaderboard. If the video in the link is deleted or changed, you will be removed from the leaderboard. For validate your lift, the video must comply with these rules:\n\n\t1-When redirected to the video, the video of the upload must be entered directly.\n\t2-The video and the entered lift must match.\n\t3-Only the uploaded video must be found in the video.\n\t4-The video must be permanent on the platform where it is uploaded.\n\t5-The weight used must be countable.\n\t6-The athlete performing the lift should not harm himself during the lift due to reasons such as poor form.\n\nIf one or more of these rules are not met, the lift will be rejected."
+        },
+        "dialog_2": {
+          "title": "Verified",
+          "content": "Your lift has been verified by our team."
+        },
+        "dialog_3": {
+          "title": "Unverified",
+          "content": "If you have added lift video and it is public, it will be checked by our team as soon as possible."
+        },
+        "dialog_4": {
+          "title": "Rejected",
+          "content": "Your lift was rejected. Your video could not be accessed externally or the lift information did not match the video."
+        },
+        "dialog_5": {
+          "title": "Are you sure you want to delete lift?"
+        },
+        "dialog_6": {
+          "title": "Are you sure you want to update lift?",
+          "content": "If you update the lift you will lose the verification and wait a while until it is verified again."
+        },
+        "result_1": "Your one rep max is",
+        "result_2": "Your ratio of lift to bw is",
+        "result_3": "Your score is",
+        "result_4": "Fetch Ranking",
+        "result_5_1": "You are better then ",
+        "result_5_2": "people",
+        "result_6_1": "You are worse then ",
+        "result_6_2": "people",
+        "result_7_1": "Your are stronger then ",
+        "result_7_2": "",
+        "button_1": "Calculate Ranking",
+        "button_2": "Log",
+        "button_3": "Update",
+        "button_4": "Lift Card",
+        "button_5": "Report",
+        "button_6": "Edit",
+        "dialog_7": {
+          "title": "Calculate Failed",
+          "content": "Check your internet connection then try again!"
+        },
+        "dialog_8": {
+          "title": "Failed",
+          "content": "Check your internet connection then try again!"
+        },
+        "switch_1": "Valid",
+        "switch_2": "Rejected"
+      },
+      "log": {
+        "title": "Log",
+        "history": {
+          "title": "History",
+          "dialog_1": {
+            "title": "Are you sure you want to delete lift?"
+          },
+          "message_1": "No lift found"
+        },
+        "chart": {
+          "title": "Chart"
+        }
+      },
+      "lift_card": {
+        "title_1": "Next Level",
+        "title_2": "Lightweight Score",
+        "content_1": "Here is my lift. Let's race!",
+        "content_2": "You can watch from this link"
+      },
+      "lightweight_card": {
+        "content_1": "Here is my Lightweight Card. Let's race!",
+        "warning_1": "You must have at least three lifts in different exercises to get the Lightweight Card.",
+        "warning_2": "You must have at least three valid lifts in three different exercises to get the Golden Lightweight Card."
+      },
+      "lift_list_item": {
+        "label_1": "Lightweight Score",
+        "label_2": "Date"
+      },
+      "share": {
+        "title_1": "Story",
+        "title_2": "More"
+      },
+      "analysis": {
+        "title_1": "Your Best Lifts",
+        "title_2": "You and People"
+      }
+    }
+  },
+  "product": {
+    "exceptions": {
+      "calculator": {
+        "exception_1": "Unremarkable Result",
+        "exception_2": "Result out of bounds"
+      }
+    },
+    "extensions": {
+      "app_tab": {
+        "name_1": "Profile",
+        "name_2": "Leaderboard",
+        "name_3": "Log",
+        "name_4": "Calculators"
+      },
+      "plate": {
+        "name_1": "1.25 kg",
+        "name_2": "2.5 kg",
+        "name_3": "5 kg",
+        "name_4": "10 kg",
+        "name_5": "15 kg",
+        "name_6": "20 kg",
+        "name_7": "25 kg"
+      },
+      "bar": {
+        "name_1": "Olympic - 20 kg",
+        "name_2": "Half Olympic - 10 kg"
+      },
+      "felt": {
+        "name_1": "Felt bad",
+        "name_2": "Normal",
+        "name_3": "Felt good"
+      },
+      "appearance": {
+        "name_1": "System",
+        "name_2": "Light",
+        "name_3": "Dark"
+      },
+      "language": {
+        "name_1": "English",
+        "name_2": "Turkish"
+      },
+      "gender": {
+        "name_1": "Male",
+        "name_2": "Female"
+      },
+      "activity_level": {
+        "name_1": "Sedentary (little or no exercise)",
+        "name_2": "Light (exercise 1-3 times/week)",
+        "name_3": "Moderate (exercise 4-5 times/week)",
+        "name_4": "Very Active (intense exercise 6-7 times/week)",
+        "name_5": "Extra Active(very intense exercise daily, or physical job)"
+      },
+      "exercise": {
+        "name_1": "Squat",
+        "name_2": "Bench Press",
+        "name_3": "Deadlift",
+        "name_4": "Overhead Press",
+        "name_5": "Barbell Row",
+        "name_6": "Weighted Dips",
+        "name_7": "Weighted Pull Up"
+      },
+      "lifts_sort": {
+        "name_1": "Date",
+        "name_2": "Lightweight Score",
+        "name_3": "One Rep Max",
+        "name_4": "Weight",
+        "name_5": "Repetition",
+        "name_6": "Body Weight"
+      },
+      "sort_direction": {
+        "name_1": "Ascending",
+        "name_2": "Descending"
+      },
+      "lifts_exercise_filter": {
+        "name_1": "All",
+        "name_2": "Squat",
+        "name_3": "Bench Press",
+        "name_4": "Deadlift",
+        "name_5": "Overhead Press",
+        "name_6": "Barbell Row",
+        "name_7": "Weighted Dips",
+        "name_8": "Weighted Pull Up"
+      },
+      "lifts_compare": {
+        "name_1": "Lightweight Score",
+        "name_2": "One Rep Max"
+      },
+      "classification": {
+        "name_1": "Untrained",
+        "name_2": "Novice",
+        "name_3": "Intermediate",
+        "name_4": "Proficient",
+        "name_5": "Advanced",
+        "name_6": "Exceptional",
+        "name_7": "Elite",
+        "name_8": "World Class",
+        "description_1": "According to your lift, you've never trained strength regularly. Majority of the population is in this category. Ask yourself in front of a mirror: \"do you even lift?\".",
+        "description_2": "Your lift is novice. Lifter in this category is stronger than untrained individuals. At least a few months of training is required to get to that level.",
+        "description_3": "Your lift is intermediate. Probably, you've been training for at least a year. The majority of those who go to the gym regularly fall into this category.",
+        "description_4": "It looks like you've made a lot of gains so far! Probably you've been lifting for more than two years. You are much stronger than average gym rat.",
+        "description_5": "Congratulations, your lift is advanced. It seems like you've been lifting for years. You may be the strongest in your gym, should consider competing.",
+        "description_6": "Exceptional lift! For many lifters, this level is near the maximum genetic potential without the use of performance-enhancing drugs. You should consider competing seriously.",
+        "description_7": "Congratulations, your lift is elite! This level requires lifetime consistency in training and diet. A few people can be able to reach that level nationally.",
+        "description_8": "Extraordinary, this lift will make a worldwide impact! This level requires both exceptional talent and rigorous effort. You are one of the best of the best!"
+      },
+      "report": {
+        "name_1": "Video and lift do not match",
+        "name_2": "Video has multiple lifts",
+        "name_3": "Video is not persistent on uploaded platform",
+        "name_4": "The weights used are not countable",
+        "name_5": "No lift"
+      },
+      "lifter_tag": {
+        "short_name_1": "SS",
+        "short_name_2": "PM",
+        "short_name_3": "DS",
+        "short_name_4": "RM",
+        "short_name_5": "CS",
+        "name_1": "Squat Star",
+        "name_2": "Press Machine",
+        "name_3": "Deadlift Star",
+        "name_4": "Row Machine",
+        "name_5": "Calisthenics Star",
+        "description_1": "No one can beat you when it comes to squatting! You're the star of this exercise.",
+        "description_2": "You're a pressing machine! You should participate in competitions where using hydraulics is not a cheat.",
+        "description_3": "You are a master at lifting weights from the ground! I hope the plates in the gym are enough for you.",
+        "description_4": "You're a pulling machine. Your back muscles are like a stone.",
+        "description_5": "You're the king of the streets! Gym, park, it doesn't matter. When you hold onto the iron, all eyes are on you."
+      }
+    },
+    "widgets": {
+      "others": {
+        "plates_input": {
+          "label_text": "Plates in the Gym"
+        },
+        "bar_input": {
+          "label_text": "Bar in the Gym"
+        }
+      },
+      "sheets": {
+        "felt": {
+          "title": "How was this set?",
+          "subtitle": "Failed",
+          "button_1": "Continue"
+        },
+        "lifts_sort": {
+          "title": "Sort By"
+        },
+        "lifts_exercise_filter": {
+          "title": "Filter"
+        },
+        "lifts_compare": {
+          "title": "Compare"
+        },
+        "select_exercises": {
+          "title": "Select Exercises"
+        },
+        "report": {
+          "title": "Report",
+          "success_title": "Reported!",
+          "success_content": "Lift reported successfully! Our team will review it as soon as possible.",
+          "failure_title": "Report Failed!",
+          "failure_content": "An error occurred while reporting the lift! Please try again."
+        }
+      },
+      "dialogs": {
+        "force_update": {
+          "title": "New Version Available",
+          "content": "There is a newer version available for download. Please update the app.",
+          "button_1": "Update"
+        },
+        "maintenance": {
+          "title": "Maintenance Time",
+          "content": "We are in maintenance right now. Come back later. Do not worry, it will not take long."
+        },
+        "explanation": {
+          "title": "Explanation",
+          "button_1": "Got It"
+        },
+        "yes_no": {
+          "button_1": "No",
+          "button_2": "Yes"
+        },
+        "ok": {
+          "button_1": "Ok"
+        }
+      },
+      "text_form_fields": {
+        "email_input": {
+          "label_text": "Email",
+          "error_text": "Invalid email"
+        },
+        "password_input": {
+          "label_text": "Password",
+          "error_text": "Invalid password: must be between 6 and 30 characters"
+        },
+        "confirmed_password_input": {
+          "label_text": "Confirm Password",
+          "error_text": "Passwords do not match"
+        },
+        "name_input": {
+          "label_text": "Name",
+          "error_text": "Invalid name: must be between 2 and 20 characters"
+        },
+        "height_input": {
+          "label_text": "Height",
+          "error_text": "Invalid height: must be between 140 and 240 cms"
+        },
+        "body_weight_input": {
+          "label_text": "Body Weight",
+          "error_text": "Invalid body weight: must be between 30 and 250 kgs"
+        },
+        "hip_input": {
+          "label_text": "Hip",
+          "error_text": "Invalid hip: must be between 50 and 200 cms"
+        },
+        "neck_input": {
+          "label_text": "Neck",
+          "error_text": "Invalid neck: must be between 15 and 70 cms"
+        },
+        "waist_input": {
+          "label_text": "Waist",
+          "error_text": "Invalid waist: must be between 40 and 200 cms"
+        },
+        "body_fat_input": {
+          "label_text": "Body Fat",
+          "error_text": "Invalid body fat: must be between 2 and 60"
+        },
+        "rep_input": {
+          "label_text": "Repetition"
+        },
+        "weight_input": {
+          "label_text_1": "Weight",
+          "error_text_1": "Invalid weigt: must be between 0 and 500",
+          "label_text_2": "Extra Weight",
+          "error_text_2": "Invalid extra weight: must be between 0 and 500"
+        },
+        "rep_input_2": {
+          "label_text": "Repetition",
+          "error_text": "Invalid repetition: must be between 1 and 10"
+        },
+        "validation_link_input": {
+          "label_text": "Video Link (Enter the leaderboard)"
+        },
+        "desired_max_input": {
+          "label_text": "Desired Max",
+          "error_text": "Invalid desired max: must be between 0 and 500"
+        }
+      }
+    }
+  }
+}
